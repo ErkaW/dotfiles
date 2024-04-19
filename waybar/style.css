@@ -1,0 +1,69 @@
+@import "mocha.css";
+* {
+	font-size: 12px;
+	font-family: "BlexMono Nerd Font";
+}
+
+window#waybar {
+	background: transparent;
+	/*background: #292b2e;*/
+	color: #ffffff;
+	transition-property: background-color;
+	transition-duration: .5s;
+}
+#custom-space,
+#custom-separator,
+#workspaces,
+#window,
+#clock,
+#mode,
+#idle_inhibitor,
+#pulseaudio,
+#network,
+#backlight,
+#memory,
+#cpu,
+#battery,
+#tray {
+	background-color: shade(@base, 0.9);
+  	/*border: 2px solid alpha(@crust, 0.3);*/
+	padding: 0 2px;
+}
+#custom-separator {
+	color: @text;
+}
+#workspaces button {
+	padding: 0 2px;
+	color: @text;
+}
+#workspaces button.focused {
+	color: @blue;
+}
+#workspaces button:hover {
+	box-shadow: inherit;
+	text-shadow: inherit;
+}
+#workspaces button:hover {
+	background: @overlay0;
+	border: @base;
+	padding: 0 3px;
+}
+#mode,
+#window {
+	padding: 0 2px;
+	color: @text;
+}
+#clock {
+	color: @text;
+	padding: 0 5px;
+}
+#idle_inhibitor,
+#network,
+#pulseaudio,
+#backlight,
+#memory,
+#cpu,
+#battery {
+	color: @text;
+	padding: 0 10px;
+}

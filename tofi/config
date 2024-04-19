@@ -1,0 +1,68 @@
+### Fonts
+	font = "BlexMono Nerd Font Regular"
+	font-size = 12
+	font-features = ""
+	font-variations = ""
+	hint-font = true
+### Text theming
+	# mocha
+	text-color = #cdd6f4
+	prompt-color = #f38ba8
+	selection-color = #f9e2af
+	background-color = #1e1e2e
+### Text cursor theme
+	# Supported values: bar, block, underscore
+	text-cursor-style = bar
+	# text-cursor-color = #FFFFFF
+	# text-cursor-background = #000000
+	text-cursor-corner-radius = 0
+	# text-cursor-style = underscore, or to 2 otherwise.
+	# text-cursor-thickness = 2
+### Text layout
+	prompt-text = "run: "
+	prompt-padding = 0
+	placeholder-text = ""
+	num-results = 7
+	result-spacing = 0
+	horizontal = false
+	min-input-width = 0
+### Window theming
+	width = 300
+	height = 200
+	background-color = #1B1D1E
+	outline-width = 1
+	outline-color = #080800
+	border-width = 3
+	border-color = #268bd2
+	padding-top = 8
+	padding-bottom = 8
+	padding-left = 8
+	padding-right = 8
+	clip-to-padding = true
+	scale = true
+### Window positioning
+	output = ""
+	# Supported values: top-left, top, top-right, right, bottom-right,
+	# bottom, bottom-left, left, center.
+	anchor = bottom
+	exclusive-zone = -1
+	margin-top = 0
+	margin-bottom = 0
+	margin-left = 0
+	margin-right = 0
+### Behaviour
+	hide-cursor = false
+	text-cursor = false
+	history = true
+	matching-algorithm = fuzzy
+	require-match = true
+	auto-accept-single = false
+	hide-input = false
+	hidden-character = "*"
+	physical-keybindings = true
+	print-index = false
+	drun-launch = false
+	terminal = foot
+	late-keyboard-init = false
+	multi-instance = false
+	ascii-input = false
