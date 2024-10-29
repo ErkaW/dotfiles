@@ -1,4 +1,4 @@
-# dotfiles
+# dotfiles-erkaw
 - GTK 3 theme : https://github.com/horst3180/arc-theme
 - GTK 3 wlroots settings : https://github.com/nwg-piotr/nwg-look
 - KDE/Qt theme : https://github.com/PapirusDevelopmentTeam/arc-kde
